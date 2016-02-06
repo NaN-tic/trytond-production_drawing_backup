@@ -1,0 +1,163 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:production.bom.drawing.position:"
+msgid "Drawing Position must be unique per BOM."
+msgstr "La posició d'esquema ha de ser única per llista de materials."
+
+msgctxt "field:production.bom,drawing:"
+msgid "Drawing"
+msgstr "Esquema"
+
+msgctxt "field:production.bom,drawing_positions:"
+msgid "Drawing Positions"
+msgstr "Posicions de l'esquema"
+
+msgctxt "field:production.bom.drawing.position,bom:"
+msgid "BOM"
+msgstr "Llistes de materials"
+
+msgctxt "field:production.bom.drawing.position,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:production.bom.drawing.position,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:production.bom.drawing.position,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:production.bom.drawing.position,position:"
+msgid "Drawing Position"
+msgstr "Posició d'esquema"
+
+msgctxt "field:production.bom.drawing.position,product:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "field:production.bom.drawing.position,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:production.bom.drawing.position,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:production.bom.drawing.position,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:production.drawing,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:production.drawing,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:production.drawing,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:production.drawing,image:"
+msgid "Image"
+msgstr "Imatge"
+
+msgctxt "field:production.drawing,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:production.drawing,positions:"
+msgid "Positions"
+msgstr "Posicions"
+
+msgctxt "field:production.drawing,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:production.drawing,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:production.drawing,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:production.drawing.position,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:production.drawing.position,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:production.drawing.position,drawing:"
+msgid "Drawing"
+msgstr "Esquema"
+
+msgctxt "field:production.drawing.position,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:production.drawing.position,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:production.drawing.position,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:production.drawing.position,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:production.drawing.position,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "model:ir.action,name:act_production_bom_drawing_position"
+msgid "Production BOM Drawing Position"
+msgstr "Posició d'esquema de LdM"
+
+msgctxt "model:ir.action,name:act_production_drawing"
+msgid "Production Drawing"
+msgstr "Esquema de producció"
+
+msgctxt "model:ir.action,name:act_production_drawing_position"
+msgid "Production Drawing Position"
+msgstr "Posició d'esquema de producció"
+
+msgctxt "model:ir.ui.menu,name:menu_production_drawing"
+msgid "Drawings"
+msgstr "Esquemes"
+
+msgctxt "model:production.bom.drawing.position,name:"
+msgid "Production BOM Drawing Position"
+msgstr "Posició d'esquema de LdM"
+
+msgctxt "model:production.drawing,name:"
+msgid "Production Drawing"
+msgstr "Esquema de producció"
+
+msgctxt "model:production.drawing.position,name:"
+msgid "Production Drawing Position"
+msgstr "Posició d'esquema de producció"
+
+msgctxt "view:production.bom.drawing.position:"
+msgid "Production BOM Drawing Position"
+msgstr "Posició d'esquema de LdM"
+
+msgctxt "view:production.bom:"
+msgid "Drawing"
+msgstr "Esquema"
+
+msgctxt "view:production.drawing.position:"
+msgid "Production Drawing Position"
+msgstr "Posició d'esquema de producció"
+
+msgctxt "view:production.drawing:"
+msgid "Production Drawing"
+msgstr "Esquema de producció"
