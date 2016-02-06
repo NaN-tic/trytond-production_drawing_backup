@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form string="Production Drawing Position">
+    <label name="drawing"/>
+    <field name="drawing"/>
+    <newline/>
+    <label name="name"/>
+    <field name="name"/>
+</form>
