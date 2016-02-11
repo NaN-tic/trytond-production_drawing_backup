@@ -32,7 +32,7 @@ class BOM:
             'invisible': ~Bool(Eval('drawing')),
             })
     drawing_image = fields.Function(fields.Binary('Drawing Image'),
-        'get_drawing_image')
+        'on_change_with_drawing_image')
 
     @fields.depends('drawing')
     def on_change_with_drawing_positions(self):
@@ -48,7 +48,7 @@ class BOM:
                     }))
         return {'add': to_add}
 
-    def get_drawing_image(self, name):
+    def on_change_with_drawing_image(self, name):
         return self.drawing.image if self.drawing else None
 
 
