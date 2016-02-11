@@ -31,6 +31,8 @@ class BOM:
         'bom', 'Drawing Positions', states={
             'invisible': ~Bool(Eval('drawing')),
             })
+    drawing_image = fields.Function(fields.Binary('Drawing Image'),
+        'get_drawing_image')
 
     @fields.depends('drawing')
     def on_change_with_drawing_positions(self):
@@ -45,6 +47,9 @@ class BOM:
                     'position': position.id,
                     }))
         return {'add': to_add}
+
+    def get_drawing_image(self, name):
+        return self.drawing.image if self.drawing else None
 
 
 class BOMDrawingPosition(ModelSQL, ModelView):
