@@ -3,4 +3,5 @@
      copyright notices and license terms. -->
 <tree string="Production Drawing">
     <field name="name"/>
+    <field name="active" tree_invisible="1"/>
 </tree>

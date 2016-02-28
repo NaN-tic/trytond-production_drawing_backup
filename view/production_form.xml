@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
-<!-- The COPYRIGHT file at the top level of this repository contains the full
-     copyright notices and license terms. -->
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
 <data>
-    <xpath expr="/form/field[@name='active']" position="after">
-        <label name="drawing"/>
-        <field name="drawing"/>
-    </xpath>
     <xpath expr="/form/notebook" position="inside">
         <page string="Drawing" id="drawing">
+            <label name="drawing"/>
+            <field name="drawing"/>
             <group colspan="3" id="drawing_lines" yexpand="1" yfill="1">
                 <field name="drawing_lines" colspan="4" yexpand="1"/>
             </group>
