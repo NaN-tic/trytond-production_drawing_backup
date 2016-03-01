@@ -50,7 +50,7 @@ class Production:
 
     @fields.depends('bom')
     def on_change_with_drawing(self):
-        return self.bom.drawing.id if self.bom else None
+        return self.bom.drawing.id if self.bom and self.bom.drawing else None
 
     @fields.depends('drawing')
     def on_change_with_drawing_image(self, name=None):
