@@ -49,11 +49,8 @@ class BOMDrawingLine(ModelSQL, ModelView):
             }, depends=['drawing'])
     drawing = fields.Function(fields.Many2One('production.drawing', 'Drawing'),
         'get_drawing')
-    product = fields.Many2One('product.product', 'Product', domain=[
-            ('id', 'in', Eval('valid_products', [])),
-            ], ondelete='RESTRICT', depends=['valid_products'])
-    valid_products = fields.Function(fields.One2Many('product.product', None,
-                'Product'), 'get_valid_products')
+    product = fields.Many2One('product.product', 'Product',
+        ondelete='RESTRICT')
 
     @classmethod
     def __setup__(cls):
@@ -65,6 +62,3 @@ class BOMDrawingLine(ModelSQL, ModelView):
 
     def get_drawing(self, name):
         return self.bom.drawing.id if self.bom.drawing else None
-
-    def get_valid_products(self, name):
-        return [x.product.id for x in self.bom.inputs]
