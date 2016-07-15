@@ -29,7 +29,6 @@
         </record>
         <record model="ir.model.access" id="access_production_bom_drawing_position">
             <field name="model" search="[('model', '=', 'production.bom.drawing.position')]"/>
-            <field name="group" ref="production.group_production"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
@@ -69,7 +68,6 @@
         </record>
         <record model="ir.model.access" id="access_production_drawing">
             <field name="model" search="[('model', '=', 'production.drawing')]"/>
-            <field name="group" ref="production.group_production"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
@@ -109,7 +107,6 @@
         </record>
         <record model="ir.model.access" id="access_production_drawing_position">
             <field name="model" search="[('model', '=', 'production.drawing.position')]"/>
-            <field name="group" ref="production.group_production"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
