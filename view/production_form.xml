@@ -10,7 +10,7 @@ this repository contains the full copyright notices and license terms. -->
                 <field name="drawing_lines" colspan="4" yexpand="1"/>
             </group>
             <group col="1" id="drawing_image" yexpand="1">
-                <field name="drawing_image" widget="image"/>
+                <field name="drawing_image" widget="image" img_height="300" img_width="200"/>
             </group>
         </page>
     </xpath>
